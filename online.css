@@ -1,0 +1,148 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  /* Book Showcase */
+  .books {
+    padding: 20px 0;
+  }
+  
+  .books h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .book {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .book:hover {
+    transform: scale(1.05);
+  }
+  
+  .book img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .book h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .book p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart Section */
+  .cart {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .cart h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #cart-items {
+    margin-bottom: 20px;
+  }
+  
+  #total {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .cart .btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cart .btn:hover {
+    background: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

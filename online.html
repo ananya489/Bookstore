@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore</title>
+  <link rel="stylesheet" href="online.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1><a href="#home">Bookstore</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#books">Books</a></li>
+          <li><a href="cart.html">Cart</a></li> <!-- Link to Cart page -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section (Home Section) -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Our Bookstore</h2>
+      <p>Find your next favorite read and explore amazing books!</p>
+      <a href="#books" class="btn">Browse Books</a>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="categories">
+    <div class="container">
+      <h2>Book Categories</h2>
+      <div class="category-container">
+        <div class="category">
+          <h3>Fiction</h3>
+          <p>Explore thrilling fictional worlds and captivating stories!</p>
+        </div>
+        <div class="category">
+          <h3>Non-Fiction</h3>
+          <p>Expand your knowledge with insightful non-fiction books.</p>
+        </div>
+        <div class="category">
+          <h3>Children's Books</h3>
+          <p>Discover fun and educational books for children.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Books Section -->
+  <section id="books" class="books">
+    <div class="container">
+      <h2>Featured Books</h2>
+      <div class="book-container">
+        <div class="book">
+          <img src="great.jpeg" alt="Book 1">
+          <h3>The Great Adventure</h3>
+          <p>Rs.120.99</p>
+          <button class="btn" onclick="addToCart('The Great Adventure', 'Rs.120.99')">Add to Cart</button>
+        </div>
+        <div class="book">
+          <img src="masteringc.jpeg" alt="Book 2">
+          <h3>Mastering C Programming</h3>
+          <p>Rs.280.99</p>
+          <button class="btn" onclick="addToCart('Mastering C Programming', 'Rs.280.99')">Add to Cart</button>
+        </div>
+        <div class="book">
+          <img src="shopping.webp" alt="Book 3">
+          <h3>Calculus</h3>
+          <p>Rs.204</p>
+          <button class="btn" onclick="addToCart('Calculus', 'Rs.204')">Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src="semicon.webp" alt="Book 4">
+            <h3>Semiconductor physics</h3>
+            <p>Rs.420</p>
+            <button class="btn" onclick="addToCart('Semiconductor', 'Rs.204')">Add to Cart</button>
+        </div>
+    <div class="book">
+      <img src="chem.jpeg" alt="Book 5">
+      <h3>Chemistry</h3>
+      <p>Rs.204</p>
+      <button class="btn" onclick="addToCart('Chemistry', 'Rs.204')">Add to Cart</button>
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need assistance, feel free to reach out!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Bookstore. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="online.js"></script>
+</body>
+</html>
